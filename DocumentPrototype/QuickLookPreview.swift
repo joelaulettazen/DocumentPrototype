@@ -23,5 +23,12 @@ final class QuickLookPreview: QLPreviewController {
     
     private func configurePreview() {
         self.dataSource = previewDataSource
+        self.delegate = self
+    }
+}
+
+extension QuickLookPreview: QLPreviewControllerDelegate {
+    func previewController(_ controller: QLPreviewController, editingModeFor previewItem: QLPreviewItem) -> QLPreviewItemEditingMode {
+        .disabled
     }
 }
