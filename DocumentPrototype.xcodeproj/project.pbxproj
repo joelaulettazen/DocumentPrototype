@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D886BD3B27FF7368002160F3 /* Apple-Developer-Forums-Agreement-20200618-English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D886BD3827FF7368002160F3 /* Apple-Developer-Forums-Agreement-20200618-English.pdf */; };
+		D886BD3C27FF7368002160F3 /* xcode.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D886BD3927FF7368002160F3 /* xcode.pdf */; };
+		D886BD3D27FF7368002160F3 /* Apple-Developer-Agreement-20211213-English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D886BD3A27FF7368002160F3 /* Apple-Developer-Agreement-20211213-English.pdf */; };
+		D886BD3F27FF7429002160F3 /* DocumentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886BD3E27FF7429002160F3 /* DocumentList.swift */; };
+		D886BD4327FF758D002160F3 /* DocumentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886BD4227FF758D002160F3 /* DocumentListViewModel.swift */; };
+		D886BD4527FF75B9002160F3 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886BD4427FF75B9002160F3 /* Document.swift */; };
+		D886BD4727FF8054002160F3 /* DocumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886BD4627FF8054002160F3 /* DocumentCell.swift */; };
+		D886BD4927FF9827002160F3 /* QuickLookDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886BD4827FF9827002160F3 /* QuickLookDataSource.swift */; };
+		D886BD4A27FFA31D002160F3 /* LoremIpsumDoc.doc in Resources */ = {isa = PBXBuildFile; fileRef = D886BD4127FF74AB002160F3 /* LoremIpsumDoc.doc */; };
+		D886BD4B27FFA320002160F3 /* LoremIpsumDocx.docx in Resources */ = {isa = PBXBuildFile; fileRef = D886BD4027FF74AB002160F3 /* LoremIpsumDocx.docx */; };
+		D886BD4D280072C6002160F3 /* QuickLookPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886BD4C280072C6002160F3 /* QuickLookPreview.swift */; };
 		D88C10BB27FF5CA700242D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C10BA27FF5CA700242D66 /* AppDelegate.swift */; };
 		D88C10BD27FF5CA700242D66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C10BC27FF5CA700242D66 /* SceneDelegate.swift */; };
 		D88C10C427FF5CA900242D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88C10C327FF5CA900242D66 /* Assets.xcassets */; };
@@ -14,6 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D886BD3827FF7368002160F3 /* Apple-Developer-Forums-Agreement-20200618-English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apple-Developer-Forums-Agreement-20200618-English.pdf"; sourceTree = "<group>"; };
+		D886BD3927FF7368002160F3 /* xcode.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = xcode.pdf; sourceTree = "<group>"; };
+		D886BD3A27FF7368002160F3 /* Apple-Developer-Agreement-20211213-English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apple-Developer-Agreement-20211213-English.pdf"; sourceTree = "<group>"; };
+		D886BD3E27FF7429002160F3 /* DocumentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentList.swift; sourceTree = "<group>"; };
+		D886BD4027FF74AB002160F3 /* LoremIpsumDocx.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoremIpsumDocx.docx; sourceTree = "<group>"; };
+		D886BD4127FF74AB002160F3 /* LoremIpsumDoc.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoremIpsumDoc.doc; sourceTree = "<group>"; };
+		D886BD4227FF758D002160F3 /* DocumentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentListViewModel.swift; sourceTree = "<group>"; };
+		D886BD4427FF75B9002160F3 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D886BD4627FF8054002160F3 /* DocumentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCell.swift; sourceTree = "<group>"; };
+		D886BD4827FF9827002160F3 /* QuickLookDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookDataSource.swift; sourceTree = "<group>"; };
+		D886BD4C280072C6002160F3 /* QuickLookPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookPreview.swift; sourceTree = "<group>"; };
 		D88C10B727FF5CA700242D66 /* DocumentPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88C10BA27FF5CA700242D66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D88C10BC27FF5CA700242D66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D886BD3727FF7368002160F3 /* SpikeDocs */ = {
+			isa = PBXGroup;
+			children = (
+				D886BD4127FF74AB002160F3 /* LoremIpsumDoc.doc */,
+				D886BD4027FF74AB002160F3 /* LoremIpsumDocx.docx */,
+				D886BD3827FF7368002160F3 /* Apple-Developer-Forums-Agreement-20200618-English.pdf */,
+				D886BD3927FF7368002160F3 /* xcode.pdf */,
+				D886BD3A27FF7368002160F3 /* Apple-Developer-Agreement-20211213-English.pdf */,
+			);
+			path = SpikeDocs;
+			sourceTree = "<group>";
+		};
 		D88C10AE27FF5CA700242D66 = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +86,18 @@
 		D88C10B927FF5CA700242D66 /* DocumentPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				D886BD3727FF7368002160F3 /* SpikeDocs */,
+				D886BD3E27FF7429002160F3 /* DocumentList.swift */,
+				D886BD4227FF758D002160F3 /* DocumentListViewModel.swift */,
 				D88C10BA27FF5CA700242D66 /* AppDelegate.swift */,
 				D88C10BC27FF5CA700242D66 /* SceneDelegate.swift */,
 				D88C10C327FF5CA900242D66 /* Assets.xcassets */,
 				D88C10C527FF5CA900242D66 /* LaunchScreen.storyboard */,
 				D88C10C827FF5CA900242D66 /* Info.plist */,
+				D886BD4427FF75B9002160F3 /* Document.swift */,
+				D886BD4627FF8054002160F3 /* DocumentCell.swift */,
+				D886BD4827FF9827002160F3 /* QuickLookDataSource.swift */,
+				D886BD4C280072C6002160F3 /* QuickLookPreview.swift */,
 			);
 			path = DocumentPrototype;
 			sourceTree = "<group>";
@@ -119,6 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D886BD4B27FFA320002160F3 /* LoremIpsumDocx.docx in Resources */,
+				D886BD3C27FF7368002160F3 /* xcode.pdf in Resources */,
+				D886BD3B27FF7368002160F3 /* Apple-Developer-Forums-Agreement-20200618-English.pdf in Resources */,
+				D886BD4A27FFA31D002160F3 /* LoremIpsumDoc.doc in Resources */,
+				D886BD3D27FF7368002160F3 /* Apple-Developer-Agreement-20211213-English.pdf in Resources */,
 				D88C10C727FF5CA900242D66 /* LaunchScreen.storyboard in Resources */,
 				D88C10C427FF5CA900242D66 /* Assets.xcassets in Resources */,
 			);
@@ -131,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D886BD4727FF8054002160F3 /* DocumentCell.swift in Sources */,
+				D886BD3F27FF7429002160F3 /* DocumentList.swift in Sources */,
+				D886BD4327FF758D002160F3 /* DocumentListViewModel.swift in Sources */,
 				D88C10BB27FF5CA700242D66 /* AppDelegate.swift in Sources */,
+				D886BD4927FF9827002160F3 /* QuickLookDataSource.swift in Sources */,
+				D886BD4D280072C6002160F3 /* QuickLookPreview.swift in Sources */,
 				D88C10BD27FF5CA700242D66 /* SceneDelegate.swift in Sources */,
+				D886BD4527FF75B9002160F3 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
